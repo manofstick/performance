@@ -95,4 +95,8 @@
     <None Include="**/*.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="corefx\System.Linq\Perf.ToArray.cs" />
+  </ItemGroup>
+
 </Project>
